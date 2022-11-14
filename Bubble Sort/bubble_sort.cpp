@@ -4,7 +4,8 @@
 void bubbleSort(std::vector<int>& vec)
 {
     int n = vec.size();
-    while (n--) {
+    while (n--) 
+    {
         bool swapped = false;
         for (std::size_t i = 0; i < n; i++)
         {
