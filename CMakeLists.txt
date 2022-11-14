@@ -13,4 +13,5 @@ add_executable(
 
     "Selection Sort/selection_sort.cpp" "Selection Sort/selection_sort.h"
 
+    "Insertion Sort/insertion_sort.cpp" "Insertion Sort/insertion_sort.h" 
 )
