@@ -11,5 +11,6 @@ add_executable(
 
     "Bubble Sort/bubble_sort.cpp" "Bubble Sort/bubble_sort.h"
 
+    "Selection Sort/selection_sort.cpp" "Selection Sort/selection_sort.h"
 
 )
