@@ -17,4 +17,5 @@ add_executable(
 
     "Bucket Sort/bucket_sort.cpp" "Bucket Sort/bucket_sort.h"
 
+    "Quick Sort/quick_sort.cpp" "Quick Sort/quick_sort.h"
     )
