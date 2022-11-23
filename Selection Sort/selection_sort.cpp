@@ -1,15 +1,14 @@
-#include <iostream>
 #include <vector>
 
 void selectionSort(std::vector<int>& vec)
 {   
     int min_num = vec[0];
     
-    for(size_t j = 0; j < vec.size(); j++)
+    for (std::size_t j = 0; j < vec.size(); j++)
     {
         int min_index = j;
         
-        for (size_t i = j; i < vec.size(); i++)
+        for (std::size_t i = j; i < vec.size(); i++)
         {       
             if (vec[i] < vec[min_index])
             {
