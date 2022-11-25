@@ -2,9 +2,9 @@
 
 int main(int argc, char * argv[])
 {
-    std::vector<int> vec {3, 2, 5, 1, 0, 8, 7};
+    std::vector<int> vec {3, 2};
     printVector(vec);
-    quickSort(vec, 0, vec.size()-1);
+    bogosort(vec);
     printVector(vec);
 
     
