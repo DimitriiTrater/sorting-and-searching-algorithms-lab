@@ -21,4 +21,7 @@ add_executable(
 
     "Bogosort/bogosort.cpp" "Bogosort/bogosort.h" 
 
+    "Merge Sort/merge_sort.cpp" "Merge Sort/merge_sort.h" 
+
+
     )

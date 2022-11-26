@@ -1,3 +1,3 @@
 #pragma once
 
-void merge_sort(std::vector<int>& vec);
+void mergeSort(std::vector<int>& vec, int left, int right);
