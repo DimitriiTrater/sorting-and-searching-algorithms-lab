@@ -9,3 +9,5 @@
 #include "Quick Sort/quick_sort.h"
 #include "Selection Sort/selection_sort.h"
 #include "Bogosort/bogosort.h" 
+#include "Merge Sort/merge_sort.h" 
+
