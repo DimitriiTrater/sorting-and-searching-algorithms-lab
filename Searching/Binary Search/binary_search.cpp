@@ -1,7 +1,7 @@
 #include <vector>
 
 // iterative
-int binarySearch(std::vector<int>& vec, int key)
+int binarySearch(std::vector<int> vec, int key)
 {
     int left = 0;
     int right = vec.size() - 1;
@@ -30,7 +30,7 @@ int binarySearch(std::vector<int>& vec, int key)
 }
 
 // recursive
-int binarySearch(std::vector<int>& vec, int left, int right, int key)
+int binarySearch(std::vector<int> vec, int left, int right, int key)
 {
     if (right >= left)
     {
