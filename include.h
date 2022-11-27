@@ -12,3 +12,6 @@
 #include "Sorting/Selection Sort/selection_sort.h"
 #include "Sorting/Merge Sort/merge_sort.h" 
 #include "Sorting/Bogosort/bogosort.h" 
+
+#include "Searching/Linear Search/linear_search.h"
+ 

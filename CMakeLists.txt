@@ -9,6 +9,7 @@ add_executable(
 
     "Standard Tools/std_tools.cpp" "Standard Tools/std_tools.h"
 
+    # Sorting algorithms
     "Sorting/Bubble Sort/bubble_sort.cpp" "Sorting/Bubble Sort/bubble_sort.h"
 
     "Sorting/Selection Sort/selection_sort.cpp" "Sorting/Selection Sort/selection_sort.h"
@@ -22,5 +23,8 @@ add_executable(
     "Sorting/Merge Sort/merge_sort.cpp" "Sorting/Merge Sort/merge_sort.h" 
 
     "Sorting/Bogosort/bogosort.cpp" "Sorting/Bogosort/bogosort.h" 
+
+    # Searching algorithms
+    "Searching/Linear Search/linear_search.cpp" "Searching/Linear Search/linear_search.h"
 
 )
