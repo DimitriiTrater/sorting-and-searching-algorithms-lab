@@ -29,4 +29,5 @@ add_executable(
 
     "Searching/Binary Search/binary_search.cpp" "Searching/Binary Search/binary_search.h"
 
+    "Searching/Interpolation Search/interpolation_search.cpp" "Searching/Interpolation Search/interpolation_search.h"
 )

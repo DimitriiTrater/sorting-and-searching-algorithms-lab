@@ -15,3 +15,4 @@
 
 #include "Searching/Linear Search/linear_search.h"
 #include "Searching/Binary Search/binary_search.h"
+#include "Searching/Interpolation Search/interpolation_search.h"

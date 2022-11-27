@@ -2,8 +2,7 @@
 
 int main(int argc, char * argv[])
 {
-    std::vector<int> vec = {1, 2, 3};
-    std::cout << binarySearch(vec, 3) ;
-
+    std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    
     return 0;
 }
