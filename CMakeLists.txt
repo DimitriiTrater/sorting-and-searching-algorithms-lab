@@ -9,19 +9,18 @@ add_executable(
 
     "Standard Tools/std_tools.cpp" "Standard Tools/std_tools.h"
 
-    "Bubble Sort/bubble_sort.cpp" "Bubble Sort/bubble_sort.h"
+    "Sorting/Bubble Sort/bubble_sort.cpp" "Sorting/Bubble Sort/bubble_sort.h"
 
-    "Selection Sort/selection_sort.cpp" "Selection Sort/selection_sort.h"
+    "Sorting/Selection Sort/selection_sort.cpp" "Sorting/Selection Sort/selection_sort.h"
 
-    "Insertion Sort/insertion_sort.cpp" "Insertion Sort/insertion_sort.h" 
+    "Sorting/Insertion Sort/insertion_sort.cpp" "Sorting/Insertion Sort/insertion_sort.h" 
 
-    "Bucket Sort/bucket_sort.cpp" "Bucket Sort/bucket_sort.h"
+    "Sorting/Bucket Sort/bucket_sort.cpp" "Sorting/Bucket Sort/bucket_sort.h"
 
-    "Quick Sort/quick_sort.cpp" "Quick Sort/quick_sort.h"
+    "Sorting/Quick Sort/quick_sort.cpp" "Sorting/Quick Sort/quick_sort.h"
 
-    "Bogosort/bogosort.cpp" "Bogosort/bogosort.h" 
+    "Sorting/Merge Sort/merge_sort.cpp" "Sorting/Merge Sort/merge_sort.h" 
 
-    "Merge Sort/merge_sort.cpp" "Merge Sort/merge_sort.h" 
+    "Sorting/Bogosort/bogosort.cpp" "Sorting/Bogosort/bogosort.h" 
 
-
-    )
+)
