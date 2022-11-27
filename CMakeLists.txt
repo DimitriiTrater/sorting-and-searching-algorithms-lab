@@ -27,4 +27,6 @@ add_executable(
     # Searching algorithms
     "Searching/Linear Search/linear_search.cpp" "Searching/Linear Search/linear_search.h"
 
+    "Searching/Binary Search/binary_search.cpp" "Searching/Binary Search/binary_search.h"
+
 )

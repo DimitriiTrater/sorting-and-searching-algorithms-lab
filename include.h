@@ -14,4 +14,4 @@
 #include "Sorting/Bogosort/bogosort.h" 
 
 #include "Searching/Linear Search/linear_search.h"
- 
+#include "Searching/Binary Search/binary_search.h"
