@@ -1,32 +1,25 @@
 #include <vector>
 #include <algorithm>
 
-void bucketSort(std::vector<int>& first)
+void bucketSort(std::vector<int>& vec)
 {
-
-    int size = first.size();
+    int max = *max_element(vec.begin(), vec.end());
+    int len = vec.size();
     
-    std::vector<int> bucket[size];
+    std::vector<int> bucket(len);
+
+    for (int i = 0; i <= max; i++)
+        bucket[i] = 0;
+
+    for (int i = 0; i < len; i++)
+        bucket[vec[i]]++;
     
-    for (std::size_t i = 0; i < first.size(); i++)
+    for (int i = 0, j = 0; i <= max; i++)
     {
-        int bucket_i = size * first[i];
-        bucket[bucket_i].push_back(first[i]);      
-    }
-
-    for (std::size_t i = 0; i < size; i++)
-    {
-        sort(bucket[i].begin(), bucket[i].end());
-    }
-
-    int index = 0;
-    for (std::size_t i = 0; i < size; i++)
-    {
-        for (std::size_t j = 0; j < bucket[i].size(); j++)
+        while (bucket[i] > 0)
         {
-            first[index++] = bucket[i][j];
-        }
-        
+            vec[j++] = i;
+            bucket[i]--;
+        }   
     }
-
 }
