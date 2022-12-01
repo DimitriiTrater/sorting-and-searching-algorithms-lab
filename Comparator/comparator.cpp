@@ -4,37 +4,7 @@
 #include "../Searching/Linear Search/linear_search.h"
 #include "../Searching/Binary Search/binary_search.h"
 #include "../Searching/Interpolation Search/interpolation_search.h"
-
-
-void quickSort_for(std::vector<int>& vec, int begin, int end)
-{
-    int i = begin;
-    int j = end;
-    int pivot = vec[(i + j) / 2];
-    int t;
-
-    while (i <= j) 
-    {
-        while (vec[i] < pivot)
-            i++;
-        while (vec[j] > pivot)
-            j--;
-        
-        if (i <= j)
-        {
-            t = vec[i];
-            vec[i] = vec[j];
-            vec[j] = t;
-            i++;
-            j--;
-        }
-    }
-    if (j > begin)
-        quickSort_for(vec, begin, j);
-    if (i < end)
-        quickSort_for(vec, i, end);
-}
-
+#include "../Sorting/Quick Sort/quick_sort.h"
 
 
 void fillArray(std::vector<int>& vec)
@@ -113,7 +83,7 @@ void printCompareResult()
 {
     std::vector<int> vec(10'000);
     fillArray(vec);
-    quickSort_for(vec, 0, 9'999);
+    quickSort(vec, 0, 9'999);
     std::cout << "Linear: " << linearTime(vec) << std::endl;
     std::cout << "Binary Iter: " << binaryTimeIter(vec) << std::endl;
     std::cout << "Binary Recurs: " << binaryTimeRec(vec) << std::endl;
