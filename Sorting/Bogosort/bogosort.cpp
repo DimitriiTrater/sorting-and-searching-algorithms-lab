@@ -19,9 +19,7 @@ void shuffle(std::vector<int> vec)
     int n = vec.size();
 
     for (int i = 0; i < n; i++)
-    {
         std::swap(vec[i], vec[rand() % n]);
-    }
 }
 
 void bogosort(std::vector<int> vec)
